@@ -12,7 +12,7 @@ namespace presensi
         public SqlConnection GetConn()
         {
             SqlConnection Conn = new SqlConnection();
-            Conn.ConnectionString = "Data source= DESKTOP-CTCB57J\\SQLEXPRESS; initial catalog= presensi; integrated security= true;";
+            Conn.ConnectionString = "Data source= LAPTOP-2J88KB4O\\SQLEXPRESS01; initial catalog= presensi; integrated security= true;";
             return Conn;
         }
     }

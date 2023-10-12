@@ -30,16 +30,16 @@
         {
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.tbNik = new System.Windows.Forms.TextBox();
             this.lblNik = new System.Windows.Forms.Label();
             this.lblPassword = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.tbPass = new System.Windows.Forms.TextBox();
             this.lblEmail = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.tbEmail = new System.Windows.Forms.TextBox();
             this.lblAlamat = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.tbAlamat = new System.Windows.Forms.TextBox();
             this.lblKet = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.tbKet = new System.Windows.Forms.TextBox();
             this.cbPria = new System.Windows.Forms.CheckBox();
             this.cbPerempuan = new System.Windows.Forms.CheckBox();
             this.label7 = new System.Windows.Forms.Label();
@@ -48,15 +48,16 @@
             this.label3 = new System.Windows.Forms.Label();
             this.cboxJabatan = new System.Windows.Forms.ComboBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.tbSearch = new System.Windows.Forms.TextBox();
+            this.tbAtasan = new System.Windows.Forms.TextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label5 = new System.Windows.Forms.Label();
             this.btnImage = new System.Windows.Forms.Button();
             this.btnSubmit = new System.Windows.Forms.Button();
             this.cboxSearch = new System.Windows.Forms.ComboBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.tbSearch = new System.Windows.Forms.TextBox();
             this.btnSearch = new System.Windows.Forms.Button();
+            this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -68,6 +69,7 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(1167, 203);
             this.dataGridView1.TabIndex = 0;
+            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
             // 
             // label1
             // 
@@ -79,12 +81,12 @@
             this.label1.TabIndex = 1;
             this.label1.Text = "Pegawai";
             // 
-            // textBox1
+            // tbNik
             // 
-            this.textBox1.Location = new System.Drawing.Point(124, 429);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(449, 20);
-            this.textBox1.TabIndex = 2;
+            this.tbNik.Location = new System.Drawing.Point(124, 429);
+            this.tbNik.Name = "tbNik";
+            this.tbNik.Size = new System.Drawing.Size(449, 20);
+            this.tbNik.TabIndex = 2;
             // 
             // lblNik
             // 
@@ -106,12 +108,12 @@
             this.lblPassword.TabIndex = 5;
             this.lblPassword.Text = "Password";
             // 
-            // textBox2
+            // tbPass
             // 
-            this.textBox2.Location = new System.Drawing.Point(124, 474);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(449, 20);
-            this.textBox2.TabIndex = 4;
+            this.tbPass.Location = new System.Drawing.Point(124, 474);
+            this.tbPass.Name = "tbPass";
+            this.tbPass.Size = new System.Drawing.Size(449, 20);
+            this.tbPass.TabIndex = 4;
             // 
             // lblEmail
             // 
@@ -123,12 +125,12 @@
             this.lblEmail.TabIndex = 9;
             this.lblEmail.Text = "Email";
             // 
-            // textBox3
+            // tbEmail
             // 
-            this.textBox3.Location = new System.Drawing.Point(124, 521);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(449, 20);
-            this.textBox3.TabIndex = 8;
+            this.tbEmail.Location = new System.Drawing.Point(124, 521);
+            this.tbEmail.Name = "tbEmail";
+            this.tbEmail.Size = new System.Drawing.Size(449, 20);
+            this.tbEmail.TabIndex = 8;
             // 
             // lblAlamat
             // 
@@ -140,13 +142,13 @@
             this.lblAlamat.TabIndex = 7;
             this.lblAlamat.Text = "Alamat";
             // 
-            // textBox4
+            // tbAlamat
             // 
-            this.textBox4.Location = new System.Drawing.Point(124, 571);
-            this.textBox4.Multiline = true;
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(449, 73);
-            this.textBox4.TabIndex = 6;
+            this.tbAlamat.Location = new System.Drawing.Point(124, 571);
+            this.tbAlamat.Multiline = true;
+            this.tbAlamat.Name = "tbAlamat";
+            this.tbAlamat.Size = new System.Drawing.Size(449, 73);
+            this.tbAlamat.TabIndex = 6;
             // 
             // lblKet
             // 
@@ -158,13 +160,13 @@
             this.lblKet.TabIndex = 11;
             this.lblKet.Text = "Ket";
             // 
-            // textBox5
+            // tbKet
             // 
-            this.textBox5.Location = new System.Drawing.Point(124, 668);
-            this.textBox5.Multiline = true;
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(449, 73);
-            this.textBox5.TabIndex = 10;
+            this.tbKet.Location = new System.Drawing.Point(124, 668);
+            this.tbKet.Multiline = true;
+            this.tbKet.Name = "tbKet";
+            this.tbKet.Size = new System.Drawing.Size(449, 73);
+            this.tbKet.TabIndex = 10;
             // 
             // cbPria
             // 
@@ -175,6 +177,7 @@
             this.cbPria.TabIndex = 12;
             this.cbPria.Text = "Pria";
             this.cbPria.UseVisualStyleBackColor = true;
+            this.cbPria.CheckedChanged += new System.EventHandler(this.cbPria_CheckedChanged);
             // 
             // cbPerempuan
             // 
@@ -185,6 +188,7 @@
             this.cbPerempuan.TabIndex = 13;
             this.cbPerempuan.Text = "Perempuan";
             this.cbPerempuan.UseVisualStyleBackColor = true;
+            this.cbPerempuan.CheckedChanged += new System.EventHandler(this.cbPerempuan_CheckedChanged);
             // 
             // label7
             // 
@@ -244,12 +248,12 @@
             this.label4.TabIndex = 20;
             this.label4.Text = "Atasan";
             // 
-            // tbSearch
+            // tbAtasan
             // 
-            this.tbSearch.Location = new System.Drawing.Point(783, 522);
-            this.tbSearch.Name = "tbSearch";
-            this.tbSearch.Size = new System.Drawing.Size(376, 20);
-            this.tbSearch.TabIndex = 21;
+            this.tbAtasan.Location = new System.Drawing.Point(783, 522);
+            this.tbAtasan.Name = "tbAtasan";
+            this.tbAtasan.Size = new System.Drawing.Size(376, 20);
+            this.tbAtasan.TabIndex = 21;
             // 
             // pictureBox1
             // 
@@ -278,6 +282,7 @@
             this.btnImage.TabIndex = 24;
             this.btnImage.Text = "...";
             this.btnImage.UseVisualStyleBackColor = true;
+            this.btnImage.Click += new System.EventHandler(this.btnImage_Click);
             // 
             // btnSubmit
             // 
@@ -287,6 +292,7 @@
             this.btnSubmit.TabIndex = 25;
             this.btnSubmit.Text = "Submit";
             this.btnSubmit.UseVisualStyleBackColor = true;
+            this.btnSubmit.Click += new System.EventHandler(this.btnSubmit_Click);
             // 
             // cboxSearch
             // 
@@ -296,6 +302,7 @@
             this.cboxSearch.Name = "cboxSearch";
             this.cboxSearch.Size = new System.Drawing.Size(376, 21);
             this.cboxSearch.TabIndex = 26;
+            this.cboxSearch.SelectedIndexChanged += new System.EventHandler(this.cboxSearch_SelectedIndexChanged);
             // 
             // label6
             // 
@@ -307,12 +314,12 @@
             this.label6.TabIndex = 27;
             this.label6.Text = "Search by";
             // 
-            // textBox6
+            // tbSearch
             // 
-            this.textBox6.Location = new System.Drawing.Point(86, 90);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(376, 20);
-            this.textBox6.TabIndex = 28;
+            this.tbSearch.Location = new System.Drawing.Point(86, 90);
+            this.tbSearch.Name = "tbSearch";
+            this.tbSearch.Size = new System.Drawing.Size(376, 20);
+            this.tbSearch.TabIndex = 28;
             // 
             // btnSearch
             // 
@@ -320,8 +327,13 @@
             this.btnSearch.Name = "btnSearch";
             this.btnSearch.Size = new System.Drawing.Size(376, 23);
             this.btnSearch.TabIndex = 29;
-            this.btnSearch.Text = "Search";
+            this.btnSearch.Text = " ";
             this.btnSearch.UseVisualStyleBackColor = true;
+            this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);
+            // 
+            // openFileDialog1
+            // 
+            this.openFileDialog1.FileName = "openFileDialog1";
             // 
             // lblGender
             // 
@@ -329,14 +341,14 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1191, 852);
             this.Controls.Add(this.btnSearch);
-            this.Controls.Add(this.textBox6);
+            this.Controls.Add(this.tbSearch);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.cboxSearch);
             this.Controls.Add(this.btnSubmit);
             this.Controls.Add(this.btnImage);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.tbSearch);
+            this.Controls.Add(this.tbAtasan);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.cboxJabatan);
@@ -346,15 +358,15 @@
             this.Controls.Add(this.cbPerempuan);
             this.Controls.Add(this.cbPria);
             this.Controls.Add(this.lblKet);
-            this.Controls.Add(this.textBox5);
+            this.Controls.Add(this.tbKet);
             this.Controls.Add(this.lblEmail);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.tbEmail);
             this.Controls.Add(this.lblAlamat);
-            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.tbAlamat);
             this.Controls.Add(this.lblPassword);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.tbPass);
             this.Controls.Add(this.lblNik);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.tbNik);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.dataGridView1);
             this.Name = "lblGender";
@@ -372,16 +384,16 @@
 
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox tbNik;
         private System.Windows.Forms.Label lblNik;
         private System.Windows.Forms.Label lblPassword;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox tbPass;
         private System.Windows.Forms.Label lblEmail;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox tbEmail;
         private System.Windows.Forms.Label lblAlamat;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox tbAlamat;
         private System.Windows.Forms.Label lblKet;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox tbKet;
         private System.Windows.Forms.CheckBox cbPria;
         private System.Windows.Forms.CheckBox cbPerempuan;
         private System.Windows.Forms.Label label7;
@@ -390,14 +402,15 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.ComboBox cboxJabatan;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox tbSearch;
+        private System.Windows.Forms.TextBox tbAtasan;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Button btnImage;
         private System.Windows.Forms.Button btnSubmit;
         private System.Windows.Forms.ComboBox cboxSearch;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox tbSearch;
         private System.Windows.Forms.Button btnSearch;
+        private System.Windows.Forms.OpenFileDialog openFileDialog1;
     }
 }

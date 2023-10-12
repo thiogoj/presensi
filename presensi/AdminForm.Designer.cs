@@ -32,6 +32,7 @@
             this.pegawaiToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.divisiToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.jabatanToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.logOutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -40,7 +41,8 @@
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.pegawaiToolStripMenuItem,
             this.divisiToolStripMenuItem,
-            this.jabatanToolStripMenuItem});
+            this.jabatanToolStripMenuItem,
+            this.logOutToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(1904, 24);
@@ -60,12 +62,20 @@
             this.divisiToolStripMenuItem.Name = "divisiToolStripMenuItem";
             this.divisiToolStripMenuItem.Size = new System.Drawing.Size(47, 20);
             this.divisiToolStripMenuItem.Text = "Divisi";
+            this.divisiToolStripMenuItem.Click += new System.EventHandler(this.divisiToolStripMenuItem_Click);
             // 
             // jabatanToolStripMenuItem
             // 
             this.jabatanToolStripMenuItem.Name = "jabatanToolStripMenuItem";
             this.jabatanToolStripMenuItem.Size = new System.Drawing.Size(59, 20);
             this.jabatanToolStripMenuItem.Text = "Jabatan";
+            // 
+            // logOutToolStripMenuItem
+            // 
+            this.logOutToolStripMenuItem.Name = "logOutToolStripMenuItem";
+            this.logOutToolStripMenuItem.Size = new System.Drawing.Size(57, 20);
+            this.logOutToolStripMenuItem.Text = "Logout";
+            this.logOutToolStripMenuItem.Click += new System.EventHandler(this.logOutToolStripMenuItem_Click);
             // 
             // AdminForm
             // 
@@ -92,5 +102,6 @@
         private System.Windows.Forms.ToolStripMenuItem pegawaiToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem divisiToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem jabatanToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem logOutToolStripMenuItem;
     }
 }

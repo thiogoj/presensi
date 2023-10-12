@@ -40,5 +40,18 @@ namespace presensi
                 }
             }
         }
+
+        private void logOutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Application.Restart();
+        }
+
+        private void divisiToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ExceptThis();
+
+            Divisi divisi = new Divisi();
+            divisi.Show();
+        }
     }
 }

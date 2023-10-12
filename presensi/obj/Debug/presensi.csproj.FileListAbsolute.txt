@@ -9,3 +9,17 @@ D:\code-joaquint\lksn\desktop\presensi\presensi\obj\Debug\presensi.csproj.Genera
 D:\code-joaquint\lksn\desktop\presensi\presensi\obj\Debug\presensi.csproj.CoreCompileInputs.cache
 D:\code-joaquint\lksn\desktop\presensi\presensi\obj\Debug\presensi.exe
 D:\code-joaquint\lksn\desktop\presensi\presensi\obj\Debug\presensi.pdb
+D:\CODE\lksn\presensi\presensi\bin\Debug\presensi.exe.config
+D:\CODE\lksn\presensi\presensi\bin\Debug\presensi.exe
+D:\CODE\lksn\presensi\presensi\bin\Debug\presensi.pdb
+D:\CODE\lksn\presensi\presensi\obj\Debug\presensi.csproj.AssemblyReference.cache
+D:\CODE\lksn\presensi\presensi\obj\Debug\presensi.AdminForm.resources
+D:\CODE\lksn\presensi\presensi\obj\Debug\presensi.Divisi.resources
+D:\CODE\lksn\presensi\presensi\obj\Debug\presensi.Form1.resources
+D:\CODE\lksn\presensi\presensi\obj\Debug\presensi.lblGender.resources
+D:\CODE\lksn\presensi\presensi\obj\Debug\presensi.Properties.Resources.resources
+D:\CODE\lksn\presensi\presensi\obj\Debug\presensi.Register.resources
+D:\CODE\lksn\presensi\presensi\obj\Debug\presensi.csproj.GenerateResource.cache
+D:\CODE\lksn\presensi\presensi\obj\Debug\presensi.csproj.CoreCompileInputs.cache
+D:\CODE\lksn\presensi\presensi\obj\Debug\presensi.exe
+D:\CODE\lksn\presensi\presensi\obj\Debug\presensi.pdb
