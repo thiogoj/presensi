@@ -1,0 +1,11 @@
+D:\code-joaquint\lksn\desktop\presensi\presensi\bin\Debug\presensi.exe.config
+D:\code-joaquint\lksn\desktop\presensi\presensi\bin\Debug\presensi.exe
+D:\code-joaquint\lksn\desktop\presensi\presensi\bin\Debug\presensi.pdb
+D:\code-joaquint\lksn\desktop\presensi\presensi\obj\Debug\presensi.csproj.AssemblyReference.cache
+D:\code-joaquint\lksn\desktop\presensi\presensi\obj\Debug\presensi.Form1.resources
+D:\code-joaquint\lksn\desktop\presensi\presensi\obj\Debug\presensi.Properties.Resources.resources
+D:\code-joaquint\lksn\desktop\presensi\presensi\obj\Debug\presensi.Register.resources
+D:\code-joaquint\lksn\desktop\presensi\presensi\obj\Debug\presensi.csproj.GenerateResource.cache
+D:\code-joaquint\lksn\desktop\presensi\presensi\obj\Debug\presensi.csproj.CoreCompileInputs.cache
+D:\code-joaquint\lksn\desktop\presensi\presensi\obj\Debug\presensi.exe
+D:\code-joaquint\lksn\desktop\presensi\presensi\obj\Debug\presensi.pdb

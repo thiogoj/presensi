@@ -1,0 +1,13 @@
+D:\code-joaquint\lksn\desktop\presensi\presensi\bin\Release\presensi.exe.config
+D:\code-joaquint\lksn\desktop\presensi\presensi\bin\Release\presensi.exe
+D:\code-joaquint\lksn\desktop\presensi\presensi\bin\Release\presensi.pdb
+D:\code-joaquint\lksn\desktop\presensi\presensi\obj\Release\presensi.csproj.AssemblyReference.cache
+D:\code-joaquint\lksn\desktop\presensi\presensi\obj\Release\presensi.Form1.resources
+D:\code-joaquint\lksn\desktop\presensi\presensi\obj\Release\presensi.Properties.Resources.resources
+D:\code-joaquint\lksn\desktop\presensi\presensi\obj\Release\presensi.Register.resources
+D:\code-joaquint\lksn\desktop\presensi\presensi\obj\Release\presensi.csproj.GenerateResource.cache
+D:\code-joaquint\lksn\desktop\presensi\presensi\obj\Release\presensi.csproj.CoreCompileInputs.cache
+D:\code-joaquint\lksn\desktop\presensi\presensi\obj\Release\presensi.exe
+D:\code-joaquint\lksn\desktop\presensi\presensi\obj\Release\presensi.pdb
+D:\code-joaquint\lksn\desktop\presensi\presensi\obj\Release\presensi.AdminForm.resources
+D:\code-joaquint\lksn\desktop\presensi\presensi\obj\Release\presensi.lblGender.resources
